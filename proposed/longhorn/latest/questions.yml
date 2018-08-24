@@ -9,8 +9,8 @@ questions:
   description: "Deploy either the CSI or FlexVolume driver. CSI is newer but requires MountPropagation, a feature enabled by default in Kubernetes v1.10 and later"
   type: enum
   options:
-  - csi
-  - flexvolume
+  - "csi"
+  - "flexvolume"
   label: Longhorn Kubernetes Driver
   group: "Longhorn Settings"
   show_subquestion_if: flexvolume
